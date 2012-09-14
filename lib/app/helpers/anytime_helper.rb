@@ -3,7 +3,7 @@ module AnytimeHelper
     if active_environments.include?(Rails.env)
       form_content = date_selector.safe_concat(form_submitter)
       form_content.safe_concat(unfreeze_button) if Anytime.is_frozen?
-      content_tag_string(:form, form_content, :action => freeze_path, :method => :post)
+      content_tag_string(:form, form_content, :action => freeze_path, :method => :post, :class => "anytime-form")
     end
   end
 
