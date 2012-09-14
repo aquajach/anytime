@@ -34,3 +34,6 @@ Anytime inserts an initializer into your config/initializers folder as:
 
 Anytime comes with a very raw user interface drawn by its helper, you can have a look at the page source code and make it up.
 
+## <a name="license">License</a>
+Anytime is released under the MIT license. See [LICENSE][] for details.
+[license]: https://github.com/aquajach/anytime/master/LICENSE.md
