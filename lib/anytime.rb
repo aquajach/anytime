@@ -1,4 +1,4 @@
-require 'mocha'
+require 'mocha/setup'
 require 'app/controllers/anytime_controller'
 require 'config/routes.rb'
 require 'generators/install_generator'
